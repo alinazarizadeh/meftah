@@ -40,10 +40,10 @@ if TEST == "123456" or TEST == "0000" or TEST == "1111":
 
  
         
-    df_etender_Estealam_0427 = pd.read_excel("D:\Data Analysis\Dataset\date_0427\etender_Estealam_0427.xlsx")
-    df_etender_Monagheseh_0427 = pd.read_excel("D:\Data Analysis\Dataset\date_0427\etender_Monagheseh_0427.xlsx")
-    df_hezarehinfo_Estealam_0427 = pd.read_excel("D:\Data Analysis\Dataset\date_0427\hezarehinfo_Estealam_0427.xlsx")
-    df_hezarehinfo_Monagheseh_0427 = pd.read_excel("D:\Data Analysis\Dataset\date_0427\hezarehinfo_Monagheseh_0427.xlsx")
+    df_etender_Estealam_0427 = pd.read_excel("etender_Estealam_0427.xlsx")
+    df_etender_Monagheseh_0427 = pd.read_excel("etender_Monagheseh_0427.xlsx")
+    df_hezarehinfo_Estealam_0427 = pd.read_excel("hezarehinfo_Estealam_0427.xlsx")
+    df_hezarehinfo_Monagheseh_0427 = pd.read_excel("hezarehinfo_Monagheseh_0427.xlsx")
         
 
 
