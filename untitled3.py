@@ -92,7 +92,9 @@ if TEST == "123456" or TEST == "0000" or TEST == "1111":
     st.title("گزارشات",)
     st.bar_chart(df2)
         
-    
+    prompt = st.chat_input("Say something")
+    if prompt:
+        st.write(f"User has sent the following prompt: {prompt}")
 
         
         
