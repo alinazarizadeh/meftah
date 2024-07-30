@@ -31,8 +31,8 @@ if TEST == "123456" or TEST == "0000" or TEST == "1111":
     # import data
     df_etender_Estealam_0427 = pd.read_excel("Etender_Estealam_0509.xlsx")
     df_etender_Monagheseh_0427 = pd.read_excel("Etender_Monagheseh_0509.xlsx")
-    df_hezarehinfo_Estealam_0427 = pd.read_excel("hezarehinfo_Estealam_0509.xlsx")
-    df_hezarehinfo_Monagheseh_0427 = pd.read_excel("hezarehinfo_Monagheseh_0509.xlsx")
+    df_hezarehinfo_Estealam_0427 = pd.read_excel("Hezareh_Estealam_0509.xlsx")
+    df_hezarehinfo_Monagheseh_0427 = pd.read_excel("Hezareh_Monagheseh_0509.xlsx")
         
     # header
     col1, col2, col3 = st.columns(3)
