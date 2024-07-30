@@ -53,6 +53,7 @@ if TEST == "123456" or TEST == "0000" or TEST == "1111":
     elif s== "استعلام بها هزاره":
         st.dataframe(df_hezarehinfo_Estealam_0427)
         df2 = df_hezarehinfo_Estealam_0427['استان'].value_counts(sort=False)
+        df_hezarehinfo_Monagheseh_0427.to_excel("TEST.xlsx")
             
     elif s== "مناقصه ایتندر":
         st.dataframe(df_etender_Monagheseh_0427)
