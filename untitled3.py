@@ -6,7 +6,7 @@ import openpyxl
 st.set_page_config(layout="wide", page_title='مفتاح رایانه افزار')
 col100, col200, col300, col400, col500, col600, col700 = st.columns(7)
 
-Database = pd.read_excel("Database\Database_0514.xlsx")
+Database = pd.read_excel("Database_0514.xlsx")
         
 # header
 col1, col2, col3 = st.columns(3)
